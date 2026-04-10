@@ -38,19 +38,46 @@
 <main>
     <section class=" button-comtainer container mx-auto shadow-md rounded-md">
         <div class="mt-10 max-w-7xl flex gap-2 py-5 px-4">
-    <button class="btn btn-soft rounded-sm">All</button>
+    <button id="all-btn" class="btn btn-primary rounded-sm">All</button>
     
-    <button class="btn btn-soft rounded-sm">Open </button>
-    <button class="btn btn-sof rounded-sm">Closed</button>
+    <button id="open-btn" class="btn btn-soft rounded-sm">Open </button>
+    <button id="closed-btn" class="btn btn-sof rounded-sm">Closed</button>
     </section>
    
 
    </div>
+<section id="issue container " class=" mt-10 max-w-7xl container mx-auto  flex justify-between items-center shadow-md min-h-20 rounded-md px-6">
+    <div id="issue-count" class="flex items-center gap-2">
+        <div class="bg-purple-300 rounded-2xl">
+            <img src="./assets/Aperture.png" alt="">
+
+        </div>
+        <div>
+            <h3 class="text-xl font-bold">50 Issues</h3>
+            <p>Track and manage your project issues</p>
+        </div>
+
+    </div>
+    <div class="flex gap-2">
+        <h3><i class="fa-regular fa-circle bg-green-600 rounded-full"></i>open</h3>
+        <h3><i class="fa-regular fa-circle bg-purple-600 rounded-full"></i>closed</h3>
+
+    </div>
 
 
-   
+</section>
+<section id="card-container" class=" mt-10 max-w-7xl container rounded-xl grid grid-cols-1 md:grid-cols-4 mx-auto gap-8"  >
+
+
+
+
+ 
+  
+</section>
+
+
 </main>
 
-
+<script src="index.js"></script>
 </body>
 </html>
